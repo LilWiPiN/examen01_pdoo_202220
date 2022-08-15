@@ -8,7 +8,7 @@ Los  empresarios  han  decidido  aprovechar el  concurso  para  preguntarle  a  
 Para ejecutar el programa puede clonar el repositorio y ejecutarlo desde Visual Studio.
 
 ## Construido con
-Este programa de consola fue creado por [@LilWiPiN](https://github.com/jdrodas) (Rey Valentin Arias Perez) en el software de desarrollo integrado **Microsoft Visual Studio**.
+Este programa de consola fue creado por [@LilWiPiN](https://github.com/LilWiPiN) (Rey Valentin Arias Perez) en el software de desarrollo integrado **Microsoft Visual Studio**.
 Utilizando el lenguaje de programación:
 C#
 
