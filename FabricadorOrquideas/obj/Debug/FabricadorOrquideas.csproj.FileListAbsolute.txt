@@ -1,0 +1,7 @@
+C:\Users\kramk\source\repos\FabricadorOrquideas\FabricadorOrquideas\bin\Debug\FabricadorOrquideas.exe.config
+C:\Users\kramk\source\repos\FabricadorOrquideas\FabricadorOrquideas\bin\Debug\FabricadorOrquideas.exe
+C:\Users\kramk\source\repos\FabricadorOrquideas\FabricadorOrquideas\bin\Debug\FabricadorOrquideas.pdb
+C:\Users\kramk\source\repos\FabricadorOrquideas\FabricadorOrquideas\obj\Debug\FabricadorOrquideas.csproj.AssemblyReference.cache
+C:\Users\kramk\source\repos\FabricadorOrquideas\FabricadorOrquideas\obj\Debug\FabricadorOrquideas.csproj.CoreCompileInputs.cache
+C:\Users\kramk\source\repos\FabricadorOrquideas\FabricadorOrquideas\obj\Debug\FabricadorOrquideas.exe
+C:\Users\kramk\source\repos\FabricadorOrquideas\FabricadorOrquideas\obj\Debug\FabricadorOrquideas.pdb
