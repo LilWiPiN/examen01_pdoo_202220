@@ -204,64 +204,6 @@ namespace FabricadorOrquideas
             }
 
             return mesRegion;
-
-            ////ENCONTRAR EL MES EN EL QUE MAS ORQUIDEAS FLORECIERON
-            ////Recorrer el arr "contadorRegion[]"? ---> guarda la cantidad de orquideas por cada region
-            ////ejem: recorre 155 orquideas que son de la region andina
-            ////entonces ---> determina el mesFrecuente entre esas 155 orquideas
-
-            //string mesFrecuente = "";
-            //ushort[] contadorMes = new ushort[5];
-            //ushort mesMasFrecuente = contadorMes[0];
-
-            //string[] meses = { "Febrero", "Marzo", "Abril", "Septiembre", "Octubre" };
-
-            //for (ushort i = 0; i < arrOrquideas.Length; i++)
-            //{
-            //    if (arrOrquideas[i].PeriodoFloracion == "Febrero")
-            //        contadorMes[0]++;
-            //    else if (arrOrquideas[i].PeriodoFloracion == "Marzo")
-            //        contadorMes[1]++;
-            //    else if (arrOrquideas[i].PeriodoFloracion == "Abril")
-            //        contadorMes[2]++;
-            //    else if (arrOrquideas[i].PeriodoFloracion == "Septiembre")
-            //        contadorMes[3]++;
-            //    else if (arrOrquideas[i].PeriodoFloracion == "Octubre")
-            //        contadorMes[4]++;
-
-            //    for (byte j = 0; j < contadorMes.Length; j++)
-            //    {
-            //        if (contadorMes[j] > mesMasFrecuente)
-            //        {
-            //            mesMasFrecuente = contadorMes[j];
-
-            //            switch (j)
-            //            {
-            //                case 0:
-            //                    mesFrecuente = "Febrero";
-            //                    break;
-
-            //                case 1:
-            //                    mesFrecuente = "Marzo";
-            //                    break;
-
-            //                case 2:
-            //                    mesFrecuente = "Abril";
-            //                    break;
-
-            //                case 3:
-            //                    mesFrecuente = "Septiembre";
-            //                    break;
-
-            //                case 4:
-            //                    mesFrecuente = "Octubre";
-            //                    break;
-            //            }
-            //        }
-            //    }
-            //}
-
-            //return mesFrecuente;
         }
 
         /// <summary>
@@ -270,7 +212,7 @@ namespace FabricadorOrquideas
         /// <param name="arrOrquideas">Arreglo de orquideas(1000)</param>
         public static void Visualiza(Orquidea[] arrOrquideas)
         {
-            for (int i = 0; i < arrOrquideas.Length; i++)
+            for (ushort i = 0; i < arrOrquideas.Length; i++)
                 Console.WriteLine($"Orquidea No {(i + 1)} - Region: {arrOrquideas[i].Region} - Mes: {arrOrquideas[i].PeriodoFloracion} - Uso: {arrOrquideas[i].Uso}");
 
             Console.WriteLine("");

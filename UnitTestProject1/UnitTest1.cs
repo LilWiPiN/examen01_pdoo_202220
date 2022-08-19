@@ -7,6 +7,9 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
+        /// <summary>
+        /// Prueba unitaria que debe de identificar "Comesitble y Perfumable" como el uso mas exitoso en la region Andina
+        /// </summary>
         [TestMethod]
         public void DebeIdentificarUsoExitosoDeAndina()
         {
@@ -66,6 +69,9 @@ namespace UnitTestProject1
             Assert.AreEqual(usoExitoso, usoReal); ;
         }
 
+        /// <summary>
+        /// Prueba unitaria que debe de identificar "Abril" como el mes mas frecuente en la region caribe
+        /// </summary>
         [TestMethod]
         public void DebeIdentificarMesFloracionDeCaribe()
         {
